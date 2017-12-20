@@ -17,5 +17,7 @@ TIME DE DESENVOLVIMENTO
 #######################
 
 ARTHUR MIRANDA( ArthurSK )
+
 BRUNO SILVA( Silvabrunu )
+
 JACKSON DANTAS( juniordnts )
