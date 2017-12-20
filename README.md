@@ -10,3 +10,12 @@ Padrão de trabalho do projeto
 
 4) Commits devem ser enumerados e descritos com o seguinte padrão: 
   "#02(número do commit, precisa ser conferido antes o número do último commit realizado): <descrição do commit>"
+ 
+ 
+#######################
+TIME DE DESENVOLVIMENTO
+#######################
+
+ARTHUR MIRANDA( ArthurSK )
+BRUNO SILVA( Silvabrunu )
+JACKSON DANTAS( juniordnts )
