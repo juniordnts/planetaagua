@@ -21,7 +21,7 @@ body {
 body {
 	font-size: 15px;
 	line-height: 1.50;
-	color: #000000;
+	color: #000;
 	background-color: #ffffff;
 	position: relative;
 }
@@ -113,7 +113,7 @@ img {
     color:#fff;
 }
 .list-icons a:hover {
-    color:#fbba00;
+    color:#55acee;
 }
 
 .center {
@@ -185,7 +185,7 @@ blockquote {
     color:#428bca;
 }
 .section {
-	background-color: #428bca;
+	background-color: #355270;
 	padding: 25px 0;
 }
 
@@ -405,14 +405,14 @@ blockquote {
 }
 
 .btn-default {
-	color: #a5a5a5;
+	color: #355270;
 	border: 1px solid #cccccc;
 }
 
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #fbba00;
-	border-color: #fbba00;
+	background-color: #55acee;
+	border-color: #55acee;
 }
 
 
@@ -531,7 +531,7 @@ textarea {
 }
 
 .modal-header {
-	background-color: #006666;
+	background-color: #355270;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -669,7 +669,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	transition: all 0.2s ease-in-out;
 }
 .social-links li.twitter a:hover {
-	color: #fbba00;
+	color: #55acee;
 }
 .social-links li.skype a:hover {
 	color: #00aff0;
@@ -687,10 +687,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	color: #ff0084;
 }
 .social-links li.facebook a:hover {
-	color: #fbba00;
+	color: #55acee;
 }
 .social-links li.instagram a:hover {
-	color: #fbba00;
+	color: #55acee;
 }
 .social-links li.pinterest a:hover {
 	color: #cb2027;
@@ -722,7 +722,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-bottom: 20px;
 }
 .isotope-item .btn-default {
-	color: #999999;
+	color: #355270;
 }
 .isotope-item .btn-default:hover {
 	color: #ffffff;
@@ -738,14 +738,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .overlay-container img{
 	object-fit: contain;
 }
-
 .overlay {
 	position: absolute;
-	top: 0;
+    top: 0;
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(0, 114, 96, 0.7);
+	background-color: rgba(85, 172, 238, 0.6);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;

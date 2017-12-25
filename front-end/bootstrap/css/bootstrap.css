@@ -962,6 +962,7 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -3160,9 +3161,13 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-block {
   display: block;
+  width: 100%; 
+}
+.btn-block2 {
+  display: block;
   width: 100%;
   max-width: 0px;
-  margin: auto;
+  margin: auto;    
 }
 .btn-block + .btn-block {
   margin-top: 5px;
