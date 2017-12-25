@@ -544,15 +544,15 @@ textarea {
 	filter: alpha(opacity=100);
 	opacity: 1;
 }
-
-.fa-search {
+/*
+.fa-search-plus {
     border:2px solid #fff;
-    border-radius:10%;
+    border-radius:50%;
     width:30px;
     height: 30px;
     padding-top: 3px;
 }
-
+*/
 @media (min-width:1200px) {
 	.modal-lg {
 		width: 1140px;
