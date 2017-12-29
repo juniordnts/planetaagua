@@ -3,6 +3,7 @@
 <head>
 	<title>Planeta Água</title>
 	<meta charset="utf-8">
+	<link id="favicon" rel="shortcut icon" href="assets/static/icon/icon.png" type="image/png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,8 +13,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 	<link href="assets/css/style.css" rel="stylesheet">
+
+	<link href="assets/css/slide.css" rel="stylesheet">
 </head>
-<body style="overflow-x: hidden;">
+<body style="overflow-x: hidden; padding-top: 50px;">
 
 	<!-- .....................NAVBAR..................... -->
 
@@ -42,8 +45,80 @@
 
 	<!-- .....................INICIO..................... -->
 
+
+
+
+	<div id="start" class="slider">
+
+
+		    <ol id="my-indicators" class="carousel-indicators">
+		    </ol>
+
+			  <div class="slider__slides">
+
+			    <div class="slidei s--active">
+			      <div class="slide__inner">
+			        <div class="slide__content">
+			          <h2 class="slide__heading">Planeta Água</h2>
+			          <p class="slide__text">Bem Vindo!</p>
+			        </div>
+			      </div>
+			    </div>
+
+			    <div class="slidei">
+			      <div class="slide__inner">
+			        <div class="slide__content">
+			          <h2 class="slide__heading">Planeta Água</h2>
+			          <p class="slide__text">Confira !</p>
+			        </div>
+			      </div>
+			    </div>
+
+			    <div class="slidei">
+			      <div class="slide__inner">
+			        <div class="slide__content">
+			          <h2 class="slide__heading">Caminhões Pipa</h2>
+			          <p class="slide__text">Levando água</p>
+			        </div>
+			      </div>
+			    </div>
+
+			    <div class="slidei">
+			      <div class="slide__inner">
+			        <div class="slide__content">
+			          <h2 class="slide__heading">Caminhões Pipa</h2>
+			          <p class="slide__text">Trasnportando vida</p>
+			        </div>
+			      </div>
+			    </div>
+
+			    <div class="slidei s--prev">
+			      <div class="slide__inner">
+			        <div class="slide__content">
+			          <h2 class="slide__heading">Planeta Água</h2>
+			          <p class="slide__text">Porque nós amamos o que fazemos</p>
+			        </div>
+			      </div>
+			    </div>
+
+			  </div>
+
+			  <div class="slider__control">
+			    <div class="slider__control-line"></div>
+			    <div class="slider__control-line"></div>
+			  </div>
+			  <div class="slider__control slider__control--right m--right">
+			    <div class="slider__control-line"></div>
+			    <div class="slider__control-line"></div>
+			  </div>
+			</div>
+
+
+
+
+<!-- 
 	<div id="start">
-		<div id="Carousel1" class="carousel slide slidea carousel-top" data-ride="carousel">
+		<div id="Carousel1" class="carousel slide slidea carousel-top sec-test" data-ride="carousel">
 
 			<ol class="carousel-indicators">
 				<li data-target="#Carousel1" data-slide-to="0" class="active"></li>
@@ -88,9 +163,9 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-	</div>
+	</div> -->
 	<!-- .....................QUEM SOMOS..................... -->
-	<div id="about" class="section-test sec-about slidea">
+	<div id="about" class="sec-about slidea sec-test">
 		<div class="title-box">
 			<div class="title-img-box"><div class="title-img"><img src="assets/static/images/gota.png"></div></div>
 			<div class="title-txt"><h1>QUEM SOMOS</h1></div>
@@ -169,7 +244,7 @@
 							</div>
 						</div>
 					</div>
-				<!-- end -->
+				
 					<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
 					<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 				</div>
@@ -181,7 +256,7 @@
 
 	<!-- .....................SERVIÇOS..................... -->
 
-	<div id="services" class="section-service slideanim">
+	<div id="services" class="slideanim sec-serv sec-test">
 		<div class="title-box">
 			<div class="title-img"><img src="assets/static/images/gota2.png"></div>
 			<div class="title-txt"><h1>SERVIÇOS</h1></div>
@@ -216,7 +291,7 @@
 						<h3>VEJA MAIS</h3>
 					</div>
 				</div>
-				<div class="serv-txt"><h3>Título de outro serviço.</h3></div>
+				<div class="serv-txt"><h3>Título dasdfas dfasde outro serviço.asdfasdf asdfa asdf asdf asdfa</h3></div>
 			</div>
 		</div>
 
@@ -301,7 +376,7 @@
 
 	<!-- ..................DIFERENCIAL.................. -->
 
-<div id="contrast" class="section-test slideanim">
+<div id="contrast" class="slideanim sec-test">
 	<div class="title-box">
 		<div class="title-img"><img src="assets/static/images/gota.png"></div>
 		<div class="title-txt"><h1>POR QUÊ NOS CONTRATAR?</h1></div>
@@ -309,15 +384,15 @@
 
 	<div class="different">
 		<div class="dif-box slideanim">
-			<div style="position: relative;"><div class="dif-img"><img src="assets/static/icon/time.png"></div><h2>Experiência</h2></div>
+			<div style="position: relative;"><div class="dif-img"><img class="timedif" src="assets/static/icon/time.png"></div><h2>Experiência</h2></div>
 			<div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></div>
 		</div>
 		<div class="dif-box slideanim">
-			<div style="position: relative;"><div class="dif-img"><img src="assets/static/icon/truck.png"></div><h2>Equipamentos</h2></div>
+			<div style="position: relative;"><div class="dif-img"><img class="cardif" src="assets/static/icon/truck.png"></div><h2>Equipamentos</h2></div>
 			<div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></div>
 		</div>
 		<div class="dif-box slideanim">
-			<div style="position: relative;"><div class="dif-img"><img src="assets/static/icon/money.png"></div><h2>Preço</h2></div>
+			<div style="position: relative;"><div class="dif-img"><img class="pricdif" src="assets/static/icon/money.png"></div><h2>Preço</h2></div>
 			<div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p></div>
 		</div>
 	</div>
@@ -325,7 +400,7 @@
 
 	<!-- ....................CONTATO.................... -->
 
-	<div id="contact" class="section-service slideanim">
+	<div id="contact" class="slideanim box-footer sec-test">
 		<div class="title-box">
 			<div class="title-img"><img src="assets/static/images/gota2.png"></div>
 			<div class="title-txt"><h1>CONTATO</h1></div>
@@ -369,6 +444,10 @@
 			<div class="img-social"><a href=""><img src="assets/static/icon/whatsapp.png"></a></div>
 			<div class="img-social"><a href=""><img src="assets/static/icon/instagram.png"></a></div>
 		</div>
+	</div>
+
+	<div class="eject">
+		<p>Empresa Júnior da Escola de Ciência e Tecnologia © 2017 <a target="_blank" href="http://www.ejectufrn.com.br/">EJECT</a>.</p>
 	</div>
 
 	<!-- .....................SCRIPTS..................... -->
@@ -435,6 +514,8 @@ $('.multi-item-carousel .item').each(function(){
   });
 })
 </script>
+
+<script type="text/javascript" src="assets/js/slide.js"></script>
 
 </body>
 </html>
