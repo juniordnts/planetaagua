@@ -241,7 +241,7 @@ p{
 .dif-box{
 	display: inline-block;
 	text-align: left;
-	width: 20%;
+	width: 32%;
 	margin: 0px 3%;
 }
 .dif-img{
@@ -329,9 +329,8 @@ p{
 	transform: scale(1.01);
 	font-size: 16px;
 }
-.eject{
-	font-size: 14px; text-align: left; margin-left: 2%;
-}
+.eject{text-align: center; margin-left: 2%;}
+.eject p{font-size: 12px}
 
 /* ---------------------OUTROS------------------- */
 
