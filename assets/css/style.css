@@ -236,6 +236,9 @@ p{
 
 /* ---------------------DIFERENCIAL------------------- */
 
+#contrast{
+	background-color: #B8E9FD;
+}
 .different{
 	width: 100%;
 	text-align: center;
