@@ -93,17 +93,6 @@ p{
 .sec-about{
 	height: 600px;
 }
-.multi-carousel-content{
-	width: 100%;
-	margin: 0px auto;
-}
-.inner-btm{
-	margin: 0px auto;
-}
-.multi-item-carousel{
-	height: 350px;
-	overflow: hidden;
-}
 .box-txt-about{
 	height: 50px;
 	text-align: center;
@@ -118,7 +107,8 @@ p{
 .box-img-about{
 	height: 280px;
 	overflow: hidden;
-	border-radius: 25px;
+	/*border-radius: 25px;*/
+	border-radius: 50%;
 }
 .box-img-about img{
 	min-width: 100%; min-height: 100%;
@@ -134,6 +124,17 @@ p{
 .carousel:hover a{
 	transition: all 200ms ease-out; opacity: 1;
 }
+.carousel-control.right, .carousel-control.left{
+	background-image: none;
+}
+
+
+.carousel-inner .active.left { left: -100%; }
+.carousel-inner .next        { left:  100% ; }
+.carousel-inner .prev		 { left: -100% ; }
+.active > div { display:none; }
+.active > div:nth-child(1) { display:block; }
+
 
 /* ----------------------SERVIÇOS-------------------- */
 
@@ -198,6 +199,7 @@ p{
 }
 .serv-txt{
 	width: 100%;
+	height: 80px;
 	border-top: 2px solid white;
 	margin-top: 0;
 	padding: 0px 8px;
@@ -234,6 +236,9 @@ p{
 
 /* ---------------------DIFERENCIAL------------------- */
 
+#contrast{
+	background-color: #B8E9FD;
+}
 .different{
 	width: 100%;
 	text-align: center;
@@ -252,6 +257,32 @@ p{
 }
 .dif-img img{
 	width: 100%; height: 100%;
+}
+
+/* --------------------------CLIENTES------------------------ */
+
+.cliente{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+.cliente-img{
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	margin: 4px 6px;
+	overflow: hidden;
+	transition: all 200ms linear;
+	transform: scale(1);
+}
+.cliente-img img{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+.cliente-img:hover{
+	transition: all 200ms ease-out;
+	transform: scale(1.1);
 }
 
 /* ---------------------CONTATO------------------- */
@@ -334,6 +365,98 @@ p{
 
 /* ---------------------OUTROS------------------- */
 
+
+/*MULTICAROUSEL*/
+
+@media all and (transform-3d), (-webkit-transform-3d) {  
+      .carousel-inner > .item.next,
+      .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+                transform: translate3d(100%, 0, 0);
+      }
+      .carousel-inner > .item.prev,
+      .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+                transform: translate3d(-100%, 0, 0);
+      }    
+  }   
+
+@media (min-width: 768px) {
+	.carousel-inner .active.left { left: -50% ; }
+	.carousel-inner .next        { left:  50% ; }
+	.carousel-inner .prev		 { left: -50% ; }
+	.active > div:nth-child(1) { display:block; }
+  .active > div:nth-child(2) { display:block; }
+  
+  @media all and (transform-3d), (-webkit-transform-3d) {  
+      .carousel-inner > .item.next,
+      .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(50%, 0, 0);
+                transform: translate3d(50%, 0, 0);
+      }
+      .carousel-inner > .item.prev,
+      .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-50%, 0, 0);
+                transform: translate3d(-50%, 0, 0);
+      }    
+  }   
+} 
+
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -33% ; }
+	.carousel-inner .next        { left:  33% ; }
+	.carousel-inner .prev		 { left: -33% ; }	
+  .active > div:nth-child(1) { display:block; }
+  .active > div:nth-child(2) { display:block; }
+  .active > div:nth-child(3) { display:block; }
+  
+  @media all and (transform-3d), (-webkit-transform-3d) {  
+      .carousel-inner > .item.next,
+      .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(33.33%, 0, 0);
+                transform: translate3d(33.33%, 0, 0);
+      }
+      .carousel-inner > .item.prev,
+      .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-33.33%, 0, 0);
+                transform: translate3d(-33.33%, 0, 0);
+      }    
+  }      
+}
+
+@media (min-width: 1200px ) {
+	.carousel-inner .active.left { left: -25% ; }
+	.carousel-inner .next        { left:  25% ; }
+	.carousel-inner .prev		 { left: -25% ; }	
+  .active > div:nth-child(1) { display:block; }
+  .active > div:nth-child(2) { display:block; }
+  .active > div:nth-child(3) { display:block; }
+  .active > div:nth-child(4) { display:block; }
+  
+  @media all and (transform-3d), (-webkit-transform-3d) {  
+      .carousel-inner > .item.next,
+      .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(25%, 0, 0);
+                transform: translate3d(25%, 0, 0);
+      }
+      .carousel-inner > .item.prev,
+      .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-25%, 0, 0);
+                transform: translate3d(-25%, 0, 0);
+      }    
+  }      
+}
+
+/*SCROOLBAR*/
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
@@ -343,7 +466,7 @@ p{
 ::-webkit-scrollbar-thumb {
 	background: #888; 
 }
-
+/*ANIMAÇÃO SLIDE*/
 .slideanim {visibility:hidden;}
 .slidea {
 	animation-name: slidea;
@@ -383,36 +506,6 @@ p{
 	100% {transform: scale(1.0);}
 }
 
-/* -----   Multi Carousel   -----  */
-
-.multi-item-carousel .carousel-inner > .item {
-	transition: 500ms ease-in-out left;
-}
-.multi-item-carousel .carousel-inner .active.left {left: -33%;
-}
-.multi-item-carousel .carousel-inner .active.right {left: 33%;
-}
-.multi-item-carousel .carousel-inner .next {left: 33%;
-}
-.multi-item-carousel .carousel-inner .prev {left: -33%;
-}
-
-@media all and (transform-3d), (-webkit-transform-3d) {
-	.multi-item-carousel .carousel-inner > .item {
-		-webkit-transition: 500ms ease-in-out left;
-		transition: 500ms ease-in-out left;
-		-webkit-transition: 500ms ease-in-out all;
-		transition: 500ms ease-in-out all;
-		-webkit-backface-visibility: visible;
-		backface-visibility: visible;
-		-webkit-transform: none!important;
-		transform: none!important;
-	}
-}
-.multi-item-carousel .carouse-control.left,
-.multi-item-carousel .carouse-control.right {
-	background-image: none;
-}
 
 /* ---------------------ANIMAÇÃO SERV------------------- */
 
@@ -514,6 +607,9 @@ p{
 /* ---------------------RESPONSIVO------------------- */
 
 @media (max-width: 600px){
+	.slide__heading {font-size: 30px;}
+	.slide__text {font-size: 20px;}
+
 	.carousel-top{height: 300px;}
 	.carousel-top img{min-height: 300px ;min-width: 100%;}
 	.box-imgs{width: 200px;}
@@ -542,9 +638,6 @@ p{
 }
 
 /* ---------------------LIXO------------------- */
-
-
-
 
 .tt1{
 	background-color: red

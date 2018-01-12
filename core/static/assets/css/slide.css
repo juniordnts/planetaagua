@@ -140,19 +140,19 @@
 }
 
 .slidei:nth-child(1) .slide__inner {
-     
+  background-image: url(../static/images/pipa1.jpg);    
 }
 .slidei:nth-child(2) .slide__inner {
-  
+  background-image: url(../static/images/pipa2.jpg);
 }
 .slidei:nth-child(3) .slide__inner {
-  
+  background-image: url(../static/images/pipa3.jpg);
 }
 .slidei:nth-child(4) .slide__inner {
-  
+  background-image: url(../static/images/pipa4.jpg);
 }
 .slidei:nth-child(5) .slide__inner {
-  
+  background-image: url(../static/images/pipa5.jpg);
 }
 
 .slide__inner {

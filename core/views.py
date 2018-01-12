@@ -40,6 +40,7 @@ def index(request):
 		'carousel': SlideShow.objects.all(),
 		'quemsomos': AboutMe.objects.all(), 
 		'service': Service.objects.all(),
+		'client': Client.objects.all(),
 		'form':form,
 	 	'success':success,
 	}

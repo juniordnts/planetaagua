@@ -25,3 +25,8 @@ class ServiceAdmin(admin.ModelAdmin):
 
 admin.site.register(Service, ServiceAdmin)
 
+class ClientAdmin(admin.ModelAdmin):
+	list_display = ('name','image')
+	search_fields = ['name']
+
+admin.site.register(Client, ClientAdmin)

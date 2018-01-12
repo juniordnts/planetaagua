@@ -53,3 +53,11 @@ class Service(models.Model):
 
 	def __str__(self):
 		return self.service
+
+class Client(models.Model):
+	name = models.CharField('Nome do cliente', max_length=100)
+	image = models.ImageField(upload_to='home/clientes', verbose_name='Imagem')
+
+	class Meta:
+		verbose_name = 'Cleinte'
+		verbose_name_plural = 'Clientes'
