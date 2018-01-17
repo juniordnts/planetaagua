@@ -34,8 +34,8 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="underline-btn"><a href="#start">INÍCIO</a></li>
-					<li class="underline-btn"><a href="#about">QUEM SOMOS</a></li>
 					<li class="underline-btn"><a href="#services">SERVIÇOS</a></li>
+					<li class="underline-btn"><a href="#about">QUEM SOMOS</a></li>
 					<li class="underline-btn"><a href="#contrast">DIFERENCIAL</a></li>
 					<li class="underline-btn"><a href="#client">CLIENTES</a></li>
 					<li class="underline-btn"><a href="#contact">CONTATO</a></li>
@@ -44,9 +44,20 @@
 		</div>
 	</nav>
 
+
+<script type="text/javascript">
+	
+$(document).ready(function(){
+    $(".underline-btn").click(function(){
+        $(".collapse").collapse('hide');
+    });
+});
+
+</script>
+
 	<!-- .....................INICIO..................... -->
 
-	<div id="start" class="slider">
+	<div id="start" class="slider slidea">
 
 		    <ol id="my-indicators" class="carousel-indicators">
 		    </ol>
@@ -243,59 +254,67 @@
 			<div class="title-txt"><h1>QUEM SOMOS</h1></div>
 		</div>
 
-		<div class="carousel slide multi-carousel" data-ride="carousel" data-interval="3000" id="myCarousel">
+		<div class="carousel slide multi-carousel" data-ride="carousel" data-interval="3000000" id="myCarousel">
 			<div class="carousel-inner">
 
 				<div class="item active">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box-txt-about">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><!-- <div class="box-txt-about">
 						<h3>2010</h3>
-					</div>
+					</div> -->
 					<div class="box-img-about">
+						<h3 class="testee">2010</h3>
+						
 						<img src="assets/static/images/pipa1.jpg" class="img-responsive">
-					</div></div>
+					</div>
+					</div>
 				</div>
 
 				<div class="item">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box-txt-about">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><!-- <div class="box-txt-about">
 						<h3>2011</h3>
-					</div>
+					</div> -->
 					<div class="box-img-about">
+						<h3 class="testee">2011</h3>
 						<img src="assets/static/images/pipa2.jpg" class="img-responsive">
 					</div></div>
 				</div>
 
 				<div class="item">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box-txt-about">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><!-- <div class="box-txt-about">
 						<h3>2012</h3>
-					</div>
+					</div> -->
 					<div class="box-img-about">
+						<h3 class="testee">2012</h3>
 						<img src="assets/static/images/pipa3.jpg" class="img-responsive">
 					</div></div>
 				</div>
 
 				<div class="item">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box-txt-about">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><!-- <div class="box-txt-about">
 						<h3>2013</h3>
-					</div>
+					</div> -->
 					<div class="box-img-about">
+						<h3 class="testee">2013</h3>
 						<img src="assets/static/images/pipa4.jpg" class="img-responsive">
 					</div></div>
 				</div>
 
 				<div class="item">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box-txt-about">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><!-- <div class="box-txt-about">
 						<h3>2014</h3>
-					</div>
+					</div> -->
 					<div class="box-img-about">
+						<h3 class="testee">2014</h3>
 						<img src="assets/static/images/pipa5.jpg" class="img-responsive">
 					</div></div>
 				</div>
 
 				<div class="item">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="box-txt-about">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><!-- <div class="box-txt-about">
 						<h3>2015</h3>
-					</div>
+					</div> -->
 					<div class="box-img-about">
+						<h3 class="testee">2015</h3>
 						<img src="assets/static/images/pipa3.jpg" class="img-responsive">
 					</div></div>
 				</div>
@@ -335,7 +354,7 @@
 
    <!-- .........................CLIENTES......................... -->
 
-   <div id="client" class="cliente slideanim">
+   <div id="client" class="cliente slideanim sec-test">
 
    	<div class="title-box" style="text-align: left;">
 		<div class="title-img"><img src="assets/static/images/gota.png"></div>
@@ -406,6 +425,14 @@
 <script type="text/javascript" src="assets/js/scripts.js"></script>
 
 <script type="text/javascript" src="assets/js/slide.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".underline-btn").click(function(){
+        $(".collapse").collapse('hide');
+    });
+});
+</script>
 
 </body>
 </html>
