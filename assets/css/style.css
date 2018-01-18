@@ -204,7 +204,7 @@ p{
 	text-align: center;
 }
 .item-service{
-	width: 28% ;	height: 430px;
+	width: 24% ;	height: 400px;
 	display: inline-block;
 	margin: 10px 20px;
 	border: 2px solid white;
@@ -214,7 +214,7 @@ p{
 }
 .serv-img{
 	position: relative;
-	width: 100% ;	height: 350px;
+	width: 100% ;	height: 310px;
 	margin: 0px auto;
 	overflow: hidden;
 }
@@ -237,6 +237,9 @@ p{
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.img-serv{
+	max-height: 310px;
+}
 .serv-img:hover .img-serv {
 	opacity: 0.3;
 }
@@ -245,7 +248,7 @@ p{
 }
 .serv-txt{
 	width: 100%;
-	height: 80px;
+	height: 90px;
 	border-top: 2px solid white;
 	margin-top: 0;
 	padding: 0px 8px;
